@@ -43,7 +43,7 @@ function sortearAmigo() {
         return;
     }
 
-    // Sorteia um índice aleatório
+    // Sorteia um nome aleatório
     const indiceSorteado = Math.floor(Math.random() * amigos.length);
     const amigoSorteado = amigos[indiceSorteado];
 
